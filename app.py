@@ -176,16 +176,6 @@ if uploaded_file:
         "File uploaded successfully!"
     )
 
-if company_name:
-
-    st.success(
-        f"Analyzing financial statements for **{company_name}**"
-    )
-
-    st.caption(
-        f"{company_industry} • {reporting_period}"
-    )
-
 
     # -------------------------------
     # READ DATA
