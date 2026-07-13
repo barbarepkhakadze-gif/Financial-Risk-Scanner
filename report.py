@@ -81,7 +81,37 @@ def create_report(
     # COVER PAGE
     # =====================================================
 
+    content.append(
+        Paragraph(
+        "FINANCIAL STATEMENT<br/>RISK ASSESSMENT REPORT",
+        styles["Title"]
+        )
+    )    
 
+    content.append(Spacer(1,25))
+
+    content.append(
+        Paragraph(
+        f"<b>Company:</b> {company_name}",
+        styles["Heading2"]
+        )
+    )
+
+    content.append(
+        Paragraph(
+        f"<b>Industry:</b> {company_industry}",
+        styles["BodyText"]
+        )
+    )
+
+    content.append(
+        Paragraph(
+        f"<b>Reporting Period:</b> {reporting_period}",
+        styles["BodyText"]
+        )
+    )
+
+    content.append(Spacer(1,20))
     content.append(
         Paragraph(
             "FINANCIAL STATEMENT<br/>"
