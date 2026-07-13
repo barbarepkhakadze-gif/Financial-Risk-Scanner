@@ -24,6 +24,9 @@ from pdf_charts import (
 
 def create_report(
     filename,
+    company_name,
+    company_industry,
+    reporting_period,
     financials,
     ratios,
     score,
