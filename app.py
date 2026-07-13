@@ -158,12 +158,6 @@ uploaded_file = st.file_uploader(
 )
 
 
-uploaded_file = st.file_uploader(
-    "Upload Excel (.xlsx) or CSV (.csv)",
-    type=["xlsx","csv"]
-)
-
-
 
 # =====================================================
 # MAIN ENGINE
@@ -175,6 +169,7 @@ if uploaded_file:
     st.success(
         "File uploaded successfully!"
     )
+
 
 
     # -------------------------------
