@@ -704,19 +704,19 @@ if uploaded_file:
 
 
 
-    create_report(
-        "Financial_Risk_Report.pdf",
-         company_name,
-        company_industry,
-        reporting_period,
-        financials,
-        ratios,
-        score,
-        risk_level,
-        findings,
-        comparison,
-        benchmark_insights
-    )
+        create_report(
+            "Financial_Risk_Report.pdf",
+             company_name,
+            company_industry,
+            reporting_period,
+            financials,
+            ratios,
+            score,
+            risk_level,
+            findings,
+            comparison,
+            benchmark_insights
+        )
 
         with open(
 
