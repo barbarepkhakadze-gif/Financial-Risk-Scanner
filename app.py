@@ -171,10 +171,6 @@ uploaded_file = st.file_uploader(
 
 if uploaded_file:
 
-if company_name:
-
-if uploaded_file:
-
 
     st.success(
         "File uploaded successfully!"
