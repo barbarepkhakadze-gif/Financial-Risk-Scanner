@@ -111,14 +111,6 @@ def create_report(
         )
     )
 
-    content.append(Spacer(1,20))
-    content.append(
-        Paragraph(
-            "FINANCIAL STATEMENT<br/>"
-            "RISK ASSESSMENT REPORT",
-            styles["Title"]
-        )
-    )
 
 
     content.append(
