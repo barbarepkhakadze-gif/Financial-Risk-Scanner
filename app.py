@@ -158,10 +158,20 @@ uploaded_file = st.file_uploader(
 )
 
 
+uploaded_file = st.file_uploader(
+    "Upload Excel (.xlsx) or CSV (.csv)",
+    type=["xlsx","csv"]
+)
+
+
 
 # =====================================================
 # MAIN ENGINE
 # =====================================================
+
+if uploaded_file:
+
+if company_name:
 
 if uploaded_file:
 
@@ -170,6 +180,15 @@ if uploaded_file:
         "File uploaded successfully!"
     )
 
+if company_name:
+
+    st.success(
+        f"Analyzing financial statements for **{company_name}**"
+    )
+
+    st.caption(
+        f"{company_industry} • {reporting_period}"
+    )
 
 
     # -------------------------------
